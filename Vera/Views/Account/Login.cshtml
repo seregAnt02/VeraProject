@@ -1,0 +1,38 @@
+ 
+@{
+    Layout = null;
+}
+
+<head>
+
+    <link rel="stylesheet" href="~/css/cssValidFolder/cssValidFormUpdate.css"/>
+
+</head>
+ 
+<form id="login_form" class="js-form" action="login" controller="account" method="post">        
+    <div>
+        <h3 class="form-headers">Вход в личный кабинет</h3>
+        <label for="email" class="label-headers">Email</label> 
+           
+        <input id="email" class="js-input-email input-margin" type="email" name="email" autocomplete="on"/>
+        
+        <label for="password" class="label-headers">Пароль</label>
+        
+        <input id="password" class="js-input-password input-margin" type="text" name="password"/>
+        
+
+        <label for="captcha" class="label-headers">Капча</label>
+                   
+        <input id="captcha" class="js-input-captcha input-margin" type="text" name="captcha"/>
+        
+        <br>
+        <img class="img-captcha" src='@Url.Action("Captcha", "account")' alt='captcha' /><br /> 
+        
+        <label id="error_label" class="label-error-show" hidden></label>
+
+        <div>
+            <input class="btn-margin btn-cancel" type="button" value="Отменить"/>
+            <input class="btn-margin btn-ok" type="button" value="Войти" />            
+        </div>
+    </div>
+</form>

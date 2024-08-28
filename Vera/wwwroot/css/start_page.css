@@ -1,0 +1,40 @@
+/*.body-startpage{
+  background-color:darkgray;
+}*/
+
+.login-in{
+
+  font-size: 21px;
+}
+
+.body-color-privacy-policy{
+  background-color: bisque;
+}
+
+.body-color-load{
+  background-color: rgb(75, 70, 70);
+}
+.btn-margin{
+  margin-top: 15px;  
+  margin-bottom: 15px;
+  margin-left: 5px;    
+  width: 100px;
+  height: 25px;
+} 
+.img-captcha{
+  width: 100px;
+}
+.mobil-img-captcha{
+  width: 50px;
+}
+.login-header{  
+  margin: 15px 10px 10px 10px;
+}
+.btn-cancel{
+  background-color: red;
+  color: whitesmoke;
+}
+.btn-ok{
+  background-color: green;
+  color: whitesmoke;
+}

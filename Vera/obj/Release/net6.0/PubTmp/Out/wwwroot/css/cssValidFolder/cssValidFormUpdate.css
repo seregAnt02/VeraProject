@@ -1,0 +1,9 @@
+
+  .error {
+    border-color: red;
+}
+
+.label-error-show{
+  color: red;
+  margin-top: 15px;
+}

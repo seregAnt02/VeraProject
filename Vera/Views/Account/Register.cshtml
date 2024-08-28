@@ -1,0 +1,77 @@
+ 
+@{
+    Layout = null;
+}
+
+<head>
+
+    <link rel="stylesheet" href="~/css/cssValidFolder/cssValidFormUpdate.css"/>
+
+</head>
+ 
+<form action="register" controller="account" method="post">    
+    <div>
+        <h3 class="form-headers">Регистрация</h3>
+        <label for="firstname" class="label-headers">Имя</label>
+        <div>            
+            <input id="firstname" class="js-input-firsname input-margin" type="text" name="firstname" />
+        </div>
+
+        <label for="lastname" class="label-headers">Фамилия</label>
+        <div>            
+            <input id="lastname" class="js-input-lastname input-margin" type="text" name="lastname" />
+        </div>
+
+        <label for="email" class="label-headers">Email</label>
+        <div>            
+            <input id="email" class="js-input-email input-margin" type="text" name="email" autocomplete="on"/>
+        </div>        
+
+        <label for="city" class="label-headers">Город</label>
+        <div>            
+            <input id="city" class="js-input-city input-margin" type="text" name="city" />
+        </div>        
+
+        <label for="year" class="label-headers">Год</label>
+        <div>            
+            <input id="year" class="js-input-year input-margin" type="number" name="year" />
+        </div>
+
+        <label for="password" class="label-headers">Пароль</label>
+        <div>            
+            <input id="password" class="js-input-password input-margin" name="password" />
+        </div>
+
+        <label for="passwordConfirm" class="label-headers">Повторите пороль</label>
+        <div>            
+            <input id="passwordConfirm" class="js-input-passwordConfirm input-margin" name="passwordconfirm" />
+        </div>
+
+        <label for="captcha" class="label-headers">Капча</label>
+        <div>            
+            <input id="captcha" class="js-input-captcha input-margin" type="text" name="captcha" />
+        </div>
+
+        <br>
+        
+        <img class="img-captcha" src='@Url.Action("captcha", "account")' alt='captcha' />  
+
+        <br>     
+
+        <a class="ref-a-check-box">
+            *Установив на активацию галочку в <br>
+             "checkbox", Вы прочитали и согла- <br>
+             шаетесь с политикой конфиденциа- <br>
+             льности сайта.                                                                          
+        </a> <br>
+
+        <label for="check"></label>
+        <input id="check" class="check_box-privacy-policy" type="checkbox" /> <br>
+        
+        <label id="error_label" class="label-error-show" hidden></label> <br>
+
+        <input class="btn-margin btn-cancel" name="btnCancel" type="button" value="Отменить"/>
+        <input class="btn-margin btn-ok" name="btnOk" type="button" value="Регистрация" disabled/>   
+
+    </div>        
+</form>

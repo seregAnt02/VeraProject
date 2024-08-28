@@ -1,0 +1,32 @@
+@model IEnumerable<Vera.Infrastructure.ApplicationUser>
+
+
+@{  
+    ViewData["Title"] = "Test page";
+    Layout = null;
+}
+
+<html>
+    <head>
+
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />                       
+
+    </head>
+    <body>            
+            <div>
+
+                <h4 style="text-align: center;">Users</h4>
+
+                    <ul>
+                        @foreach(var person in Model)
+                        {
+                            <li>@person.UserName</li>
+                        }
+                    </ul>
+
+            </div>
+
+
+    </body>
+</html>

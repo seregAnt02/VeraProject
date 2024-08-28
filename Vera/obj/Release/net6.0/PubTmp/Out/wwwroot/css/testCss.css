@@ -1,0 +1,12 @@
+
+
+.content {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+ .offsetcenter{
+
+    margin-top: -250px;
+ } 

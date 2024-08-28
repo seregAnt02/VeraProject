@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\obj\\Release\\net6.0\\scopedcss\\projectbundle\\Vera.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Vera.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\css\\cssValidFolder\\cssValidFormUpdate.css",
+      "PackagePath": "staticwebassets\\css\\cssValidFolder\\cssValidFormUpdate.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\css\\cssValidFolder\\cssValidTest.css",
+      "PackagePath": "staticwebassets\\css\\cssValidFolder\\cssValidTest.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\css\\site.min.css",
+      "PackagePath": "staticwebassets\\css\\site.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\css\\start_page.css",
+      "PackagePath": "staticwebassets\\css\\start_page.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\css\\testCss.css",
+      "PackagePath": "staticwebassets\\css\\testCss.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\help.jpg",
+      "PackagePath": "staticwebassets\\images\\help.jpg"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\images.rar",
+      "PackagePath": "staticwebassets\\images\\images.rar"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\png-close-dark.png",
+      "PackagePath": "staticwebassets\\images\\png-close-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\png-close.png",
+      "PackagePath": "staticwebassets\\images\\png-close.png"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\png-icons-delete-dark.png",
+      "PackagePath": "staticwebassets\\images\\png-icons-delete-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\png-icons-delete.png",
+      "PackagePath": "staticwebassets\\images\\png-icons-delete.png"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\png-icons-plus-dark.png",
+      "PackagePath": "staticwebassets\\images\\png-icons-plus-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\png-icons-plus-dark.rar",
+      "PackagePath": "staticwebassets\\images\\png-icons-plus-dark.rar"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\png-icons-plus.png",
+      "PackagePath": "staticwebassets\\images\\png-icons-plus.png"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\png-icons-put-dark.png",
+      "PackagePath": "staticwebassets\\images\\png-icons-put-dark.png"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\png-icons-put.png",
+      "PackagePath": "staticwebassets\\images\\png-icons-put.png"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\user-login-icon.png",
+      "PackagePath": "staticwebassets\\images\\user-login-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\images\\Радар.gif",
+      "PackagePath": "staticwebassets\\images\\Радар.gif"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\chart.min.js",
+      "PackagePath": "staticwebassets\\js\\chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\site.min.js",
+      "PackagePath": "staticwebassets\\js\\site.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\validate\\valid_form_addSave.js",
+      "PackagePath": "staticwebassets\\js\\validate\\valid_form_addSave.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\validate\\valid_form_login.js",
+      "PackagePath": "staticwebassets\\js\\validate\\valid_form_login.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\validate\\valid_form_register.js",
+      "PackagePath": "staticwebassets\\js\\validate\\valid_form_register.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\validate\\valifdateTest.js",
+      "PackagePath": "staticwebassets\\js\\validate\\valifdateTest.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\vue.min.js",
+      "PackagePath": "staticwebassets\\js\\vue.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\vue_js\\js_add_measuring.js",
+      "PackagePath": "staticwebassets\\js\\vue_js\\js_add_measuring.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\vue_js\\modul_table.js",
+      "PackagePath": "staticwebassets\\js\\vue_js\\modul_table.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\vue_js\\start_page.js",
+      "PackagePath": "staticwebassets\\js\\vue_js\\start_page.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\js\\vue_js\\vue_js.rar",
+      "PackagePath": "staticwebassets\\js\\vue_js\\vue_js.rar"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\bootstrap\\dist\\js\\npm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\npm.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation-unobtrusive\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery\\.bower.json",
+      "PackagePath": "staticwebassets\\lib\\jquery\\.bower.json"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\s_ant\\source\\repos\\Vera\\Vera\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Vera.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Vera.props",
+      "PackagePath": "build\\Vera.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Vera.props",
+      "PackagePath": "buildMultiTargeting\\Vera.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Vera.props",
+      "PackagePath": "buildTransitive\\Vera.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

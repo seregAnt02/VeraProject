@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+
+@{
+    Layout = null;   
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="~/css/site.min.css"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/start_page.css"/>    
+    <!--<link rel="icon" type="image/x-icon" href="http://xn--d1aqu.su/favicon.ico" />-->
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="~/js/vue.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>-->
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>-->
+</head>
+
+<html>
+    <body class="body-startpage">        
+
+            <div id="containerId" class="container body-content">
+
+            <div class="col-md-offset-10 text-align-center">
+                <img class="img-icon-login-startpage" src="~/images/user-login-icon.png"/><br><br>
+                <a v-on:click="LoginEnter()" class="login-in">Вход</a>
+            </div>    
+
+                    <h1 class="text-center-header">Вера</h1>
+
+                <p class="text-font-startpage">Програмное обеспечение "Вера", для визуализаций замеров артериального давления, абсалютно бесплатное в использований, которое в свою очередь может вам служить к пониманию ритма сердечно-сосудистой системы.</p>
+
+            <div>
+                <div id="formaRegister"></div>
+            </div>                
+
+                <button id="idAddRegister" v-on:click="RegisterForm()" class="btn btn-success col-md-12 margin-top-startpage" >Регистрация </button>
+
+            </div>        
+
+            <div class="loadingForm"></div>
+
+            <div id="imgRadarDiv" class="mx-auto text-center">
+                <img id="img_modal" src="~/images/Радар.gif" hidden />
+            </div>            
+
+            <script src="~/js/vue_js/start_page.js"></script>
+
+    </body>
+</html>

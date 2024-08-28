@@ -1,0 +1,79 @@
+
+<head>
+    <style>
+                    .error {
+                border-color: red;
+            }
+
+            .label-error-show{
+            color: red;
+            padding: 10px 15px 10px 15px;
+            }
+            
+             <!-- .login-header{  
+                margin: 15px 10px 10px 10px;
+                color: white;
+            } -->
+
+    </style>
+</head>
+<form id="forma_add_udate_id" action="home/addsave" method="post" enctype="application/x-www-form-urlencoded">
+
+<br>
+        <h3 class="login-header">Обновить строку?  №</h3>
+        
+            <label for="id" hidden>ID</label>
+            <div>
+                <input id="id" type="number" name="id" hidden/>    
+            </div>    
+        
+
+        <label for="datetimebloodpressure" hidden>Дата</label>
+            <div>
+                <input id="datetimebloodpressure" type="datetime" name="datetimebloodpressure" hidden/>    
+            </div>    
+
+
+
+
+        <label for="sys">Sys</label>
+            <div>
+                <input id="sys" type="number" name="sys"/>    
+            </div>    
+            
+
+            <label for="dia">Dia</label>
+            <div>
+                <input id="dia" type="number" name="dia"/>    
+            </div>    
+
+
+
+
+        <label for="pulse">Пульс</label>
+            <div>
+                <input id="pulse" type="number" name="pulse"/>    
+            </div>    
+            
+
+
+        <label for="comment">Комментарий</label>
+            <div>
+                <input id="comment" type="text" name="comment"/>    
+            </div>    
+
+            
+            <div class="button-form-add-update_all">
+
+             <div>
+                    <label id="lab-lab" class="label-error-show" hidden></label>
+             </div>               
+
+            <br>
+
+            <button id="btn_cancel" class="btn btn-danger button-form-add-update_all" type="button">Отмена</button>
+            <button id="btn_ok" style="margin-left: 25px;" class="btn btn-success button-form-add-update_all" type="button">Ок</button>
+
+            </div>
+    
+</form>

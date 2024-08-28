@@ -1,0 +1,77 @@
+
+@{
+    Layout = null;   
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/site.min.css"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/testCss.css" />
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+
+
+</head>
+<html>
+    <body class="container body-content">
+       
+       <form id="login_form" action="login" controller="account" method="post">
+
+            <div>
+                <label class="col-md-4" for="email">Email</label>
+                <input class="col-md-7" type="email" for="email" name="email"/>
+            </div>
+
+            <div>
+                <label class="col-md-4" for="password">Пароль</label>
+                <input class="col-md-7" type="text" for="password" name="password"/>
+            </div>
+
+            <div>
+                <label class="col-md-4" for="captcha">Капча</label>
+                <input class="col-md-7" type="text" for="captcha" name="captcha"/>
+            </div>
+            
+            <button id="btn" class="col-md-12" type="button">btn</button>
+
+       </form>       
+
+        <script>            
+            
+                async function metod(){
+
+                const form = new FormData(document.getElementById('login_form'));        
+
+                        console.dir(form);
+
+                        const url = "/account/login";                                
+                        
+                            let responsePost = await fetch( url, {
+                                    
+                                method: 'POST',                                
+                                body: form
+                    
+                            });
+
+                            if (responsePost.ok === true){                      
+
+                                console.dir(responsePost.ok);
+
+                            }
+
+                }
+
+                let btn = document.getElementById('btn');
+                
+                btn.onclick = async function(e){
+                    e.preventDefault();
+                    await metod();
+                    //console.dir(btn);
+                }
+                
+        </script>
+         
+    </body>
+</html>

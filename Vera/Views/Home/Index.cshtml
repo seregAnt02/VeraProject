@@ -1,0 +1,122 @@
+﻿
+@{  
+    ViewData["Title"] = "Home Page";
+}
+<head>
+  @* <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!--<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>-->  
+  <script type="module">
+
+    import { firstTable } from './js/vue_js/modul_table.js';   
+
+    //console.log(firstTable);
+
+  </script> *@
+</head>
+<br><br>
+<div id="tableData">
+
+          <div class="col-md-offset-10 text-align-center">
+              <a href="/vera/account/logOut" class="login-in">Выход</a><br><br>
+              <img class="img-icon-login-startpage" src="~/images/user-login-icon.png"/><br><br>              
+              <a href="#">{{ login }}</a>
+          </div> 
+
+          <h2 style="text-align:center;">Статистика замеров артериального давления</h2>
+
+          <br>
+
+          <div id="datetime_id" style="text-align:center;margin-top:25px;margin-bottom:45px;">
+
+                <div class="col-md-6">
+
+                <label for="datetime_start">Начало:</label>
+                <input id="datetime_start" type="datetime-local"/>
+
+                </div>
+
+                <div class="col-md-6">
+
+                <label for="datetime_end">Конец:</label>
+                <input id="datetime_end" type="datetime-local"/>
+
+                </div>
+
+          </div>
+
+          <br>
+
+          <!-- <label for="img_add_row">Добавить замер</label> -->
+          <img src="~/images/png-icons-plus.png" id="img_add_row">          
+
+          <br>
+
+          <div class="scroll-table-body">
+
+          <table class="table">
+            <thead>
+              <tr>
+                <th class="col">ID</th>
+                <th class="col">Дата</th>
+                <th class="col">Sys</th>
+                <th class="col">Dia</th>
+                <th class="col">Пульс</th>
+                <th class="col">Комментарий</th>
+                <th class="col">*</th>
+                <th class="col">**</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(row, index) in rows" v-bind:key="row.id">
+                <td>{{index += 1}}</td>
+                <td>{{row.datetimebloodpressure}}</td>
+                <td>{{row.sys}}</td>
+                <td>{{row.dia}}</td>
+                <td>{{row.pulse}}</td>
+                <td>{{row.comment}}</td>
+                <td class="icons-put">
+
+                    <img v-bind:id="'btn_up' + row.id" v-on:click="eventUpdate(row.id, $event, index)" src="~/images/png-icons-put.png" >
+                    <!--<button :id="'btn_' + row.id" onclick="getAll()" type="button">test</button>-->
+
+                </td>
+                <td class="icons-delete">
+
+                    <img v-bind:id="'btn_del' + row.id" v-on:click="eventDelete(row.id, $event, index)" src="~/images/png-icons-delete.png">
+
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          </div>
+
+          <br>
+
+          <!-- нас интересует данная часть -->
+                  <div class="app-chart__canvas">
+                    <div class="chartAreaWrapper">
+                        <canvas class="chart"></canvas>
+                    </div>                    
+                  </div>
+                  
+          <!--<button onclick="load()">Нажми меня</button>-->
+
+          <!--<script src="~/js/vue_js/js_func_publice.js" type="module"></script>-->
+
+          <br>
+
+
+</div>
+
+<input id="button_add_measuring" type="button" class="form-control col-md-1" style="background-color:green;color:white" value="Загрузить" /> 
+
+<script>
+  const body = document.getElementsByTagName('body')[0];
+   if(body.clientWidth < 576){    
+      const chartAreaWrapper = document.getElementsByClassName('chartAreaWrapper')[0];
+      chartAreaWrapper.style.width = "600px";
+      //console.dir(chartAreaWrapper);
+  }
+</script>
