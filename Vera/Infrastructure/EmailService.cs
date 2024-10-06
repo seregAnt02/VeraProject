@@ -17,10 +17,10 @@ namespace Vera.Infrastructure
                     //var path_file = Path.GetFileName(path);
 
                     // отправитель - устанавливаем адрес и отображаемое в письме имя
-                    MailAddress? from = new("serega-a-02@yandex.ru", "Администрация сервиса дум.su/vera");
+                    MailAddress? from = new("mail", "Администрация сервиса дум.su/vera");
 
                     // кому отправляем
-                    MailAddress? to = email != null ? new MailAddress(email) : new MailAddress("s_antonov02@rambler.ru");
+                    MailAddress? to = email != null ? new MailAddress(email) : new MailAddress("mail");
 
             // создаем объект сообщения
             using MailMessage m = new(from, to);
@@ -40,7 +40,7 @@ namespace Vera.Infrastructure
 
                 client.EnableSsl = true;
 
-                client.Credentials = new NetworkCredential("serega-a-02@yandex.ru", "yandexsergy7");
+                client.Credentials = new NetworkCredential("mail", "password");
 
                 await client.SendMailAsync(m);
 
